@@ -1,0 +1,138 @@
+body {
+    margin: 20px;
+    padding: 10px;
+}
+
+header {
+    background-image: url(https://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+    height: 31vh;
+    background-position: initial;
+    background-size: cover;
+}
+
+img {
+    display: block;
+    width: 20vh;
+    border: 2px solid black;
+    margin: 30px;
+    margin-left: 20px;
+    align-items: center;
+
+}
+
+main {
+    display: flex;
+    float: left;
+}
+
+.left {
+    background-color: #777613;
+    width: 200px;
+    height: 70vh;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.right {
+    margin-left: 10px;
+    background-color: #FFF;
+
+}
+
+h1 {
+    color: #FFF;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+nav>a {
+    display: inline-block;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: auto 7%;
+    border-radius: 5px;
+    width: 10%;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #000;
+    font-size: medium;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+a.active:link {
+    background-color: #FFF;
+    color: #000;
+}
+
+table,
+th,
+td {
+    border: 0.5px none #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: 600;
+
+}
+
+table {
+    box-sizing: border-box;
+    width: 40%;
+    position: absolute;
+    right: 600px;
+    top: 380px;
+    line-height: normal;
+}
+
+td {
+    background-color: #B1D986;
+    opacity: 0.6;
+    height: 20px;
+    padding: 5px;
+    color: #41453C;
+}
+
+th {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 2px solid #b0de53;
+    opacity: 0.6;
+}
+
+table tr th {
+    background-image: linear-gradient(#7AB02F, #7F6A24);
+    -webkit-background-image: linear-gradient(#7AB02F, #7F6A24);
+    height: 25px;
+    padding: 5px;
+    color: #fff;
+}
+
+table tr th:first-child {
+    text-align: left !important;
+}
+
+table tr {
+    align-items: center;
+    text-align: center;
+}
+
+table tr td:first-child {
+    text-align: left !important;
+}
+
+th:hover {
+    opacity: 1;
+}
+
+td:hover {
+    opacity: 1;
+}
+
+
+  
+  
